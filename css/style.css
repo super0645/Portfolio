@@ -49,6 +49,7 @@ header ul{
 
 header ul li a i{
     transition: all 0.4s ease;
+    color: #ccc;
 }
 
 header ul li a i:hover{
