@@ -211,5 +211,9 @@ header ul li a i:hover{
     margin-bottom: .75rem;
 }
 
+.full_width{
+    width: 100%;
+}
+
 
 /* Responsive */
