@@ -8,6 +8,8 @@
 }
 body{
     background-color: #0F172A;
+    font-family: "montserrat";
+    font-weight: 500;
 }
 
 p{
@@ -64,10 +66,40 @@ header ul li a i:hover{
 
 .main{
     width: calc(100% - 40px);
+    height: 485px;
     margin: 0 auto;
     /* height: 300px; */
     /* background-color: #fff; */
-    margin-top: 100px;
-    box-sizing: border-box;
-    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* background-color: #fff; */
+    color: #fff;
 }
+
+.main .content_box{
+    width: 600px;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #fff; */
+}
+
+.main .title{
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.main .subtitle{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.main_button_color{
+    background-color: #2194C7;
+}
+
