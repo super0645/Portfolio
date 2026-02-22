@@ -217,3 +217,14 @@ header ul li a i:hover{
 
 
 /* Responsive */
+
+@media only screen and (min-width: 2600px) {
+  .card{
+    width: 34rem;
+  }
+}
+@media only screen and (min-width: 4000px) {
+  .card{
+    width: 45rem;
+  }
+}
