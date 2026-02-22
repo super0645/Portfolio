@@ -228,3 +228,11 @@ header ul li a i:hover{
     width: 45rem;
   }
 }
+@media only screen and (max-width: 600px) {
+  header{
+    font-size: 5vw;
+  }
+  header i{
+    font-size: 4.6vw;
+  }
+}
