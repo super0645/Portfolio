@@ -77,14 +77,26 @@ header ul li a i:hover{
 .footer div{
     width: 20%;
     display: flex;
-    gap: 5px;
+    /* gap: 5px; */
     align-items: center;
     /* justify-content: center; */
     color: #fff;
     font-size: 14px;
 }
 
-.footer > div:nth-last-child(1){
+.footer div a{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: all ease 0.3333s;
+}
+
+.footer div a:hover{
+    text-decoration: underline;
+    color: #aaa;
+}
+
+.footer div:nth-last-child(1){
     justify-content: end;
 }
 
